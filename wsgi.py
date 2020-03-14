@@ -75,9 +75,6 @@ class DataAll(Resource):
 
 api.add_resource(DataAll, '/ws/data/all')
 
-@application.route('/home')
-def index();
-    return 'Added more code'
 
 @application.route('/')
 def index():
